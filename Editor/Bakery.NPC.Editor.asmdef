@@ -1,6 +1,6 @@
 {
     "name": "Bakery.NPC.Editor",
-    "rootNamespace": "",
+    "rootNamespace": "Bakery.NPC",
     "references": [],
     "includePlatforms": [
         "Editor"

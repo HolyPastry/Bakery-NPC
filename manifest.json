@@ -1,9 +1,0 @@
-{
-    "dependencies": {
-        "com.kylewbanks.scenerefattribute": "https://github.com/KyleBanks/scene-ref-attribute.git",
-        "com.eflatun.scenereference": "https://github.com/starikcetin/Eflatun.SceneReference.git#upm",
-        "com.unity.ai.navigation": "1.1.5",
-        "com.unity.textmeshpro": "3.0.6"
-    },
-    "resolutionStrategy": "highestMinor"
-}
