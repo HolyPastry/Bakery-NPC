@@ -9,6 +9,10 @@
         "email": "sebasti1.berton@gmail.com",
         "url": "https://github.com/HolyPastry/Bakery"
     },
+    "dependencies": {
+        "com.unity.ai.navigation": "1.1.5",
+        "com.unity.textmeshpro": "3.0.6"
+    },
     "hideInEditor": false,
     "license": "copyright sebasti1.berton@gmail.com 2024"
 }
