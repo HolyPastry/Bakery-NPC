@@ -9,12 +9,6 @@
         "email": "sebasti1.berton@gmail.com",
         "url": "https://github.com/HolyPastry/Bakery"
     },
-    "dependencies": {
-        "com.kylewbanks.scenerefattribute": "https://github.com/KyleBanks/scene-ref-attribute.git#v0.12.1",
-        "com.eflatun.scenereference": "https://github.com/starikcetin/Eflatun.SceneReference.git#upm#v4.0.0",
-        "com.unity.ai.navigation": "1.1.5",
-        "com.unity.textmeshpro": "3.0.6"
-    },
     "hideInEditor": false,
     "license": "copyright sebasti1.berton@gmail.com 2024"
 }
