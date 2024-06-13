@@ -1,34 +1,13 @@
 {
     "name": "Bakery.NPC.Runtime",
-    "rootNamespace": "",
+    "rootNamespace": "Bakery.NPC",
     "references": [
         "GUID:33759803a11f4d538227861a78aba30b",
-        "GUID:caca889fed6088d40b22c2d7e2909c31"
+        "GUID:caca889fed6088d40b22c2d7e2909c31",
+        "GUID:8c4dd21966739024fbd72155091d199e"
     ],
     "includePlatforms": [],
-    "excludePlatforms": [
-        "Android",
-        "Editor",
-        "EmbeddedLinux",
-        "GameCoreScarlett",
-        "GameCoreXboxOne",
-        "iOS",
-        "LinuxStandalone64",
-        "CloudRendering",
-        "macOSStandalone",
-        "PS4",
-        "PS5",
-        "QNX",
-        "Stadia",
-        "Switch",
-        "tvOS",
-        "WSA",
-        "VisionOS",
-        "WebGL",
-        "WindowsStandalone32",
-        "WindowsStandalone64",
-        "XboxOne"
-    ],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],

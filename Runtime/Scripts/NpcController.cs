@@ -8,20 +8,20 @@ using UnityEngine.AI;
 
 namespace Bakery.NPC
 {
-    internal enum NpcPose
-    {
-        Idle,
-        Walk,
-        Run,
-        Talk,
-        Sprint,
-        Sit,
-        Stand,
-        SitOnGround
-    }
-    internal class NpcController : ValidatedMonoBehaviour
-    {
 
+    public class NpcController : ValidatedMonoBehaviour
+    {
+        public enum NpcPose
+        {
+            Idle,
+            Walk,
+            Run,
+            Talk,
+            Sprint,
+            Sit,
+            Stand,
+            SitOnGround
+        }
         [SerializeField] private GameObject _selectedIndicator;
 
         internal static Dictionary<NpcPose, int> PoseHashes = new()
@@ -121,7 +121,7 @@ namespace Bakery.NPC
         }
 
 
-        internal void Deactivate()
+        public void Deactivate()
         {
             _activated = false;
             _navMeshAgent.enabled = false;
@@ -131,7 +131,7 @@ namespace Bakery.NPC
 
         }
 
-        internal void Activate()
+        public void Activate()
         {
             if (_activated) return;
             _activated = true;

@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Bakery.NPC
 {
     [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
-    internal class Npc
+    public class Npc
     {
         private readonly NpcData _data;
 
