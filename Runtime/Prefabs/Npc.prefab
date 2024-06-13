@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 1444239622609790115}
   - component: {fileID: 2335665814561932706}
   - component: {fileID: 3852736631573764092}
+  - component: {fileID: 67048600764154589}
   m_Layer: 9
   m_Name: Npc
   m_TagString: Character
@@ -163,6 +164,26 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &67048600764154589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9022438585521725920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5265dfdada56c460fb759a1a75366c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _selectedIndicator: {fileID: 1057378713824397840}
+  _navMeshAgent: {fileID: 2335665814561932706}
+  _animator: {fileID: 804359909125741857}
+  _collision: {fileID: 3852736631573764092}
+  _visuals: {fileID: 804359909135101615}
+  _data: {fileID: 11400000, guid: 7d1958b0b47004511b5d974822e5cbfe, type: 2}
+  _initOnStart: 0
+  _searchRadius: 0.5
 --- !u!1001 &8304730991925013222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -231,6 +252,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 405ce37bb502f094e89d5dce904423c3, type: 3}
+--- !u!95 &804359909125741857 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8676745181399054279, guid: 405ce37bb502f094e89d5dce904423c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 8304730991925013222}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &804359909135101615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8676745181389521993, guid: 405ce37bb502f094e89d5dce904423c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 8304730991925013222}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &804359909135594127 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8676745181389232233, guid: 405ce37bb502f094e89d5dce904423c3,
